@@ -1,0 +1,129 @@
+/* Wedding Invitation App Styles */
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure full-width sections */
+section {
+  width: 100%;
+}
+
+/* Custom animation for petal falling effect */
+@keyframes petal-fall {
+  0% {
+    transform: translateY(-10px) rotate(0deg) translateX(0);
+    opacity: 0.6;
+  }
+  25% {
+    transform: translateY(25vh) rotate(90deg) translateX(20px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(50vh) rotate(180deg) translateX(-10px);
+    opacity: 0.4;
+  }
+  75% {
+    transform: translateY(75vh) rotate(270deg) translateX(15px);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg) translateX(0);
+    opacity: 0;
+  }
+}
+
+.animate-petal-fall {
+  animation: petal-fall 10s linear infinite;
+}
+
+/* Enhanced hover effects for interactive elements */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Text gradient effect */
+.text-gradient {
+  background: linear-gradient(135deg, hsl(var(--blush)) 0%, hsl(var(--sage)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Decorative divider */
+.divider-floral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.divider-floral::before,
+.divider-floral::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    hsl(var(--blush)) 50%,
+    transparent
+  );
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 640px) {
+  .font-script {
+    line-height: 1.2;
+  }
+}
+
+/* Print styles for saving the invitation */
+@media print {
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid hsl(var(--blush));
+  outline-offset: 2px;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
