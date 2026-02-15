@@ -92,18 +92,12 @@ const StorySection = () => {
               <div className="relative">
                 <Quote className="absolute -top-4 -left-2 w-8 h-8 text-blush-200" />
                 <p className="font-body text-lg text-foreground leading-relaxed pl-6">
-                  Все почалось однією теплою весняною післяобідньою порою на вечірці в спільних 
-                  друзів у саду. Емма милувалася трояндами, коли Джеймс випадково пролив свій 
-                  лимонад, намагаючись уникнути бджоли. Їхні погляди зустрілись, розлився сміх, 
-                  і те, що почалося як незручна ситуація, перетворилося на години розмови 
-                  під зоряним небом.
+                  Абзац 1
                 </p>
               </div>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                Три роки, незліченні пригоди та мільйон спогадів потому Джеймс зробив пропозицію 
-                в тому самому саду, де вони вперше зустрілись. Серед квітучих троянд і заходу сонця 
-                Емма сказала "так" на все життя.
+                Абзац 2
               </p>
 
               <div className="pt-4">
@@ -123,30 +117,30 @@ const StorySection = () => {
             <div className="flex flex-wrap justify-center gap-8 md:gap-16">
               <div className="text-center">
                 <div className="w-20 h-20 rounded-full bg-blush-100 flex items-center justify-center mx-auto mb-3">
-                  <span className="font-script text-2xl text-blush-400">2022</span>
+                  <span className="font-script text-2xl text-blush-400">Рік</span>
                 </div>
-                <p className="font-serif text-sm text-foreground">Перша Зустріч</p>
+                <p className="font-serif text-sm text-foreground">Подія</p>
               </div>
 
               <div className="text-center">
                 <div className="w-20 h-20 rounded-full bg-sage-100 flex items-center justify-center mx-auto mb-3">
-                  <span className="font-script text-2xl text-sage-400">2023</span>
+                  <span className="font-script text-2xl text-sage-400">Рік</span>
                 </div>
-                <p className="font-serif text-sm text-foreground">Перше Побачення</p>
+                <p className="font-serif text-sm text-foreground">Подія</p>
               </div>
 
               <div className="text-center">
                 <div className="w-20 h-20 rounded-full bg-lavender-100 flex items-center justify-center mx-auto mb-3">
-                  <span className="font-script text-2xl text-lavender-400">2024</span>
+                  <span className="font-script text-2xl text-lavender-400">Рік</span>
                 </div>
                 <p className="font-serif text-sm text-foreground">Пропозиція</p>
               </div>
 
               <div className="text-center">
                 <div className="w-20 h-20 rounded-full bg-blush-100 flex items-center justify-center mx-auto mb-3">
-                  <span className="font-script text-2xl text-blush-400">2025</span>
+                  <span className="font-script text-2xl text-blush-400">Рік</span>
                 </div>
-                <p className="font-serif text-sm text-foreground">Наше Весілля</p>
+                <p className="font-serif text-sm text-foreground">Подія</p>
               </div>
             </div>
           </div>

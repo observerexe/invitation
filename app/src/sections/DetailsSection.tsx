@@ -25,27 +25,27 @@ const DetailsSection = () => {
 
   const schedule = [
     {
-      time: '15:30',
-      event: 'Прибуття Гостей',
-      description: 'Будь ласка, приходьте заздалегідь, щоб знайти своє місце',
+      time: 'Час',
+      event: 'Подія',
+      description: 'Примітка',
       icon: Clock,
     },
     {
-      time: '16:00',
-      event: 'Весільна Церемонія',
-      description: 'Початок весільної церемонії',
+      time: 'Час',
+      event: 'Подія',
+      description: 'Примітка',
       icon: MapPin,
     },
     {
-      time: '17:00',
-      event: 'Коктейльна Година',
-      description: 'Насолоджуйтесь напоями та закусками',
+      time: 'Час',
+      event: 'Подія',
+      description: 'Примітка',
       icon: Utensils,
     },
     {
-      time: '18:00',
-      event: 'Весільний Банкет',
-      description: 'Вечеря, танці та святкування',
+      time: 'Час',
+      event: 'Подія',
+      description: 'Примітка',
       icon: Music,
     },
   ];
@@ -98,9 +98,9 @@ const DetailsSection = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
             <div className="absolute bottom-6 left-6 right-6 text-white">
-              <p className="font-script text-2xl md:text-3xl">Садиба "Квітковий Сад"</p>
+              <p className="font-script text-2xl md:text-3xl">Місце</p>
               <p className="font-body text-sm md:text-base opacity-90">
-                вул. Квіткова 123, м. Київ, 01001
+                Адреса
               </p>
             </div>
           </div>
@@ -182,9 +182,9 @@ const DetailsSection = () => {
 
           <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-soft text-center">
             <Car className="w-8 h-8 text-sage-400 mx-auto mb-3" />
-            <h4 className="font-serif text-lg text-foreground">Паркування</h4>
+            <h4 className="font-serif text-lg text-foreground">Транспорт</h4>
             <p className="font-body text-sm text-muted-foreground mt-2">
-              Безкоштовне паркування з обслуговуванням біля входу до закладу
+              Буде наданий транспорт щоб дістатися до місця святкування
             </p>
           </div>
         </div>

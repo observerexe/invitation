@@ -96,29 +96,29 @@ const DressCodeSection = () => {
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blush-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Коктейльні або вечірні сукні</span> — 
-                    середньої довжини або в підлогу в пастельних тонах
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blush-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Взуття на підборах</span> — 
-                    зручне, оскільки захід проходитиме на відкритому повітрі
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blush-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Легкі шалі або накидки</span> — 
-                    на випадок прохолодного вечора
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blush-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Квіткові прикраси в волоссі</span> — 
-                    дуже вітаються!
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
               </div>
@@ -141,29 +141,29 @@ const DressCodeSection = () => {
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-sage-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Костюм темно-синього, сірого або бежевого кольору</span> — 
-                    класичний або злегка вільний крій
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-sage-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Сорочка пастельних тонів</span> — 
-                    біла, кремова, блідо-блакитна або пудрова
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-sage-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Краватка або метелик</span> — 
-                    в тон кольоровій гамі весілля
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-sage-300 mt-2 flex-shrink-0"></span>
                   <p className="font-body text-muted-foreground">
-                    <span className="text-foreground font-medium">Класичне взуття</span> — 
-                    туфлі або лофери темного кольору
+                    <span className="text-foreground font-medium">Вимога</span> — 
+                    Вимога
                   </p>
                 </div>
               </div>

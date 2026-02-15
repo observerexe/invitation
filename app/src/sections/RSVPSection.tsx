@@ -110,7 +110,7 @@ const RSVPSection = () => {
           }`}
         >
           <span className="font-script text-3xl md:text-4xl text-blush-400">
-            RSVP
+            
           </span>
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-2">
             Чи Приєднаєтесь Ви До Нас?
@@ -257,7 +257,7 @@ const RSVPSection = () => {
                 className="w-full bg-blush-400 hover:bg-blush-500 text-white font-serif text-lg py-6 rounded-lg transition-all duration-300 hover:shadow-glow"
               >
                 <Send className="w-5 h-5 mr-2" />
-                Надіслати RSVP
+                Надіслати
               </Button>
             </form>
           </div>

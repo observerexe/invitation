@@ -86,7 +86,7 @@ const HeroSection = () => {
               }`}
             >
               <h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-foreground">
-                Емма Роуз
+                Яцків Христина
               </h1>
               <div className="flex items-center justify-center gap-4 py-2">
                 <span className="w-16 h-px bg-blush-300"></span>
@@ -94,7 +94,7 @@ const HeroSection = () => {
                 <span className="w-16 h-px bg-blush-300"></span>
               </div>
               <h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-foreground">
-                Джеймс Вільям
+                Назар Батькович
               </h1>
             </div>
 
@@ -117,13 +117,13 @@ const HeroSection = () => {
             >
               <div className="inline-flex flex-col items-center">
                 <span className="font-serif text-sm md:text-base text-blush-400 uppercase tracking-[0.3em]">
-                  Субота
+                  День тижня
                 </span>
                 <span className="font-serif text-4xl md:text-5xl text-foreground my-1">
-                  15 червня 2025
+                  Дата
                 </span>
                 <span className="font-serif text-sm md:text-base text-blush-400 uppercase tracking-[0.3em]">
-                  о шостій годині вечора
+                  о котрій годин
                 </span>
               </div>
             </div>
@@ -148,10 +148,10 @@ const HeroSection = () => {
               }`}
             >
               <p className="font-serif text-xl md:text-2xl text-foreground">
-                Садиба "Квітковий Сад"
+                Місце
               </p>
               <p className="font-body text-base md:text-lg text-muted-foreground mt-1">
-                вул. Квіткова 123, м. Київ
+                Адреса
               </p>
             </div>
           </div>
