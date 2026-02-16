@@ -17,7 +17,7 @@ const FooterSection = () => {
           {/* Names */}
           <div className="space-y-2">
             <h3 className="font-script text-4xl md:text-5xl text-foreground">
-              Христина та Назар
+              Христина та Назарій
             </h3>
             <p className="font-serif text-lg text-mocha-500">
               Дата

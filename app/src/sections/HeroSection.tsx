@@ -69,7 +69,7 @@ const HeroSection = () => {
                 <span className="w-16 h-px bg-mocha-300"></span>
               </div>
               <h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-foreground">
-                Назар
+                Назарій
               </h1>
             </div>
 
