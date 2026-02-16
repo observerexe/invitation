@@ -6,33 +6,33 @@
 
 @layer base {
   :root {
-    --background: 30 33% 97%;
-    --foreground: 340 10% 25%;
-    --card: 30 33% 97%;
-    --card-foreground: 340 10% 25%;
-    --popover: 30 33% 97%;
-    --popover-foreground: 340 10% 25%;
-    --primary: 340 60% 75%;
-    --primary-foreground: 30 33% 97%;
-    --secondary: 150 20% 80%;
-    --secondary-foreground: 340 10% 25%;
-    --muted: 30 20% 92%;
-    --muted-foreground: 340 10% 45%;
-    --accent: 260 30% 85%;
-    --accent-foreground: 340 10% 25%;
+    --background: 30 25% 94%;
+    --foreground: 25 30% 20%;
+    --card: 30 25% 94%;
+    --card-foreground: 25 30% 20%;
+    --popover: 30 25% 94%;
+    --popover-foreground: 25 30% 20%;
+    --primary: 25 40% 35%;
+    --primary-foreground: 30 25% 94%;
+    --secondary: 30 20% 88%;
+    --secondary-foreground: 25 30% 20%;
+    --muted: 30 15% 90%;
+    --muted-foreground: 25 20% 40%;
+    --accent: 35 50% 45%;
+    --accent-foreground: 30 25% 94%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 340 20% 85%;
-    --input: 340 20% 85%;
-    --ring: 340 60% 75%;
+    --border: 25 25% 80%;
+    --input: 25 25% 80%;
+    --ring: 25 40% 35%;
     --radius: 0.5rem;
     
-    --blush: 340 60% 90%;
-    --sage: 150 20% 85%;
-    --cream: 30 33% 97%;
-    --lavender: 260 30% 90%;
-    --rose: 340 50% 80%;
-    --champagne: 40 30% 92%;
+    --chocolate: 25 45% 25%;
+    --mocha: 25 35% 35%;
+    --cappuccino: 30 30% 55%;
+    --cream: 35 40% 92%;
+    --gold: 45 60% 55%;
+    --pearl: 40 25% 88%;
   }
 }
 
@@ -64,44 +64,56 @@
     font-family: 'Cormorant Garamond', serif;
   }
   
-  .text-blush {
-    color: hsl(var(--blush));
+  .text-chocolate {
+    color: hsl(var(--chocolate));
   }
   
-  .text-sage {
-    color: hsl(var(--sage));
+  .text-mocha {
+    color: hsl(var(--mocha));
   }
   
-  .bg-blush {
-    background-color: hsl(var(--blush));
+  .text-cappuccino {
+    color: hsl(var(--cappuccino));
   }
   
-  .bg-sage {
-    background-color: hsl(var(--sage));
+  .text-gold {
+    color: hsl(var(--gold));
+  }
+  
+  .bg-chocolate {
+    background-color: hsl(var(--chocolate));
+  }
+  
+  .bg-mocha {
+    background-color: hsl(var(--mocha));
+  }
+  
+  .bg-cappuccino {
+    background-color: hsl(var(--cappuccino));
   }
   
   .bg-cream {
     background-color: hsl(var(--cream));
   }
   
-  .bg-lavender {
-    background-color: hsl(var(--lavender));
+  .bg-gold {
+    background-color: hsl(var(--gold));
   }
   
-  .bg-rose {
-    background-color: hsl(var(--rose));
+  .bg-pearl {
+    background-color: hsl(var(--pearl));
   }
   
-  .bg-champagne {
-    background-color: hsl(var(--champagne));
+  .border-chocolate {
+    border-color: hsl(var(--chocolate));
   }
   
-  .border-blush {
-    border-color: hsl(var(--blush));
+  .border-mocha {
+    border-color: hsl(var(--mocha));
   }
   
-  .border-sage {
-    border-color: hsl(var(--sage));
+  .border-cappuccino {
+    border-color: hsl(var(--cappuccino));
   }
   
   .text-shadow-soft {
@@ -110,10 +122,6 @@
   
   .paper-texture {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
-  }
-  
-  .floral-pattern {
-    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4a5a5' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
   
   .animate-float {
@@ -245,16 +253,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(var(--blush));
+  background: hsl(var(--mocha));
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--rose));
+  background: hsl(var(--chocolate));
 }
 
 /* Selection color */
 ::selection {
-  background: hsl(var(--blush));
+  background: hsl(var(--cappuccino));
   color: hsl(var(--foreground));
 }

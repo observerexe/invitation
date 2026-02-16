@@ -11,43 +11,18 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cream-50 paper-texture">
-      {/* Floating petals background */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(12)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute animate-petal-fall opacity-40"
-            style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 8}s`,
-              animationDuration: `${8 + Math.random() * 6}s`,
-            }}
-          >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className={`${i % 3 === 0 ? 'text-blush-300' : i % 3 === 1 ? 'text-sage-300' : 'text-lavender-300'}`}
-            >
-              <path d="M12 2C12 2 8 6 8 10C8 14 12 18 12 18C12 18 16 14 16 10C16 6 12 2 12 2Z" />
-            </svg>
-          </div>
-        ))}
-      </div>
-
-      {/* Corner floral decorations */}
-      <div className="absolute top-0 left-0 w-48 md:w-72 opacity-80 animate-fade-in">
+      {/* Corner pearl decorations */}
+      <div className="absolute top-0 left-0 w-48 md:w-80 opacity-70 animate-fade-in">
         <img
-          src="/images/floral-corner.png"
-          alt="Квіткова декорація"
+          src="/images/pearls-corner-1.png"
+          alt="Перлинна декорація"
           className="w-full h-auto transform -scale-x-100"
         />
       </div>
-      <div className="absolute bottom-0 right-0 w-48 md:w-72 opacity-80 animate-fade-in delay-500">
+      <div className="absolute bottom-0 right-0 w-48 md:w-80 opacity-70 animate-fade-in delay-500">
         <img
-          src="/images/floral-corner.png"
-          alt="Квіткова декорація"
+          src="/images/pearls-corner-2.png"
+          alt="Перлинна декорація"
           className="w-full h-auto transform -scale-y-100"
         />
       </div>
@@ -61,7 +36,7 @@ const HeroSection = () => {
         >
           {/* Wax seal decoration */}
           <div className="absolute -top-6 left-1/2 transform -translate-x-1/2">
-            <div className="w-12 h-12 rounded-full bg-blush-400 flex items-center justify-center shadow-soft animate-pulse-soft">
+            <div className="w-12 h-12 rounded-full bg-mocha-500 flex items-center justify-center shadow-soft animate-pulse-soft">
               <Heart className="w-6 h-6 text-white fill-white" />
             </div>
           </div>
@@ -86,15 +61,15 @@ const HeroSection = () => {
               }`}
             >
               <h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-foreground">
-                Яцків Христина
+                Христина
               </h1>
               <div className="flex items-center justify-center gap-4 py-2">
-                <span className="w-16 h-px bg-blush-300"></span>
-                <span className="font-script text-3xl md:text-4xl text-blush-400">&</span>
-                <span className="w-16 h-px bg-blush-300"></span>
+                <span className="w-16 h-px bg-mocha-300"></span>
+                <span className="font-script text-3xl md:text-4xl text-mocha-500">&</span>
+                <span className="w-16 h-px bg-mocha-300"></span>
               </div>
               <h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-foreground">
-                Назар Батькович
+                Назар
               </h1>
             </div>
 
@@ -109,23 +84,21 @@ const HeroSection = () => {
               </p>
             </div>
 
-            {/* Date */}
+            {/* Date info with classic style */}
             <div
-              className={`transition-all duration-700 delay-900 ${
+              className={`space-y-2 transition-all duration-700 delay-900 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              <div className="inline-flex flex-col items-center">
-                <span className="font-serif text-sm md:text-base text-blush-400 uppercase tracking-[0.3em]">
-                  День тижня
-                </span>
-                <span className="font-serif text-4xl md:text-5xl text-foreground my-1">
-                  Дата
-                </span>
-                <span className="font-serif text-sm md:text-base text-blush-400 uppercase tracking-[0.3em]">
-                  о котрій годин
-                </span>
-              </div>
+              <span className="font-serif text-sm text-mocha-400 uppercase tracking-[0.3em]">
+                День тижня
+              </span>
+              <span className="font-serif text-4xl md:text-5xl text-foreground block">
+                Дата
+              </span>
+              <span className="font-serif text-sm text-mocha-400 uppercase tracking-[0.3em] block">
+                Година
+              </span>
             </div>
 
             {/* Decorative line */}
@@ -134,34 +107,34 @@ const HeroSection = () => {
                 isVisible ? 'opacity-100' : 'opacity-0'
               }`}
             >
-              <span className="w-2 h-2 rounded-full bg-sage-300"></span>
-              <span className="w-24 h-px bg-blush-200"></span>
-              <Heart className="w-4 h-4 text-blush-300 fill-blush-200" />
-              <span className="w-24 h-px bg-blush-200"></span>
-              <span className="w-2 h-2 rounded-full bg-sage-300"></span>
+              <span className="w-2 h-2 rounded-full bg-cappuccino-400"></span>
+              <span className="w-24 h-px bg-mocha-200"></span>
+              <Heart className="w-4 h-4 text-mocha-400 fill-mocha-300" />
+              <span className="w-24 h-px bg-mocha-200"></span>
+              <span className="w-2 h-2 rounded-full bg-cappuccino-400"></span>
             </div>
 
             {/* Venue */}
             <div
-              className={`transition-all duration-700 delay-1100 ${
+              className={`space-y-1 transition-all duration-700 delay-1100 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
             >
-              <p className="font-serif text-xl md:text-2xl text-foreground">
+              <span className="font-serif text-2xl md:text-3xl text-foreground block">
                 Місце
-              </p>
-              <p className="font-body text-base md:text-lg text-muted-foreground mt-1">
+              </span>
+              <span className="font-body text-base md:text-lg text-muted-foreground block">
                 Адреса
-              </p>
+              </span>
             </div>
           </div>
 
-          {/* Bottom floral garland */}
+          {/* Bottom pearl garland */}
           <div className="mt-8 -mb-4">
             <img
-              src="/images/floral-garland.jpg"
-              alt="Квіткова гірлянда"
-              className="w-full h-16 object-contain opacity-70"
+              src="/images/pearls-garland.png"
+              alt="Перлинна гірлянда"
+              className="w-full h-16 object-contain opacity-80"
             />
           </div>
         </div>

@@ -3,11 +3,11 @@ import { Heart } from 'lucide-react';
 const FooterSection = () => {
   return (
     <footer className="relative py-16 bg-cream-200 overflow-hidden">
-      {/* Floral decoration */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-2xl opacity-30 pointer-events-none">
+      {/* Pearl decoration */}
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-2xl opacity-50 pointer-events-none">
         <img
-          src="/images/floral-garland.jpg"
-          alt="Квіткова декорація"
+          src="/images/pearls-garland.png"
+          alt="Перлинна декорація"
           className="w-full h-24 object-contain"
         />
       </div>
@@ -19,16 +19,16 @@ const FooterSection = () => {
             <h3 className="font-script text-4xl md:text-5xl text-foreground">
               Христина та Назар
             </h3>
-            <p className="font-serif text-lg text-blush-400">
-              15 червня 2025
+            <p className="font-serif text-lg text-mocha-500">
+              Дата
             </p>
           </div>
 
           {/* Decorative line */}
           <div className="flex items-center justify-center gap-3">
-            <span className="w-16 h-px bg-blush-300"></span>
-            <Heart className="w-5 h-5 text-blush-400 fill-blush-300 animate-pulse-soft" />
-            <span className="w-16 h-px bg-blush-300"></span>
+            <span className="w-16 h-px bg-mocha-300"></span>
+            <Heart className="w-5 h-5 text-mocha-500 fill-mocha-400 animate-pulse-soft" />
+            <span className="w-16 h-px bg-mocha-300"></span>
           </div>
 
           {/* Love quote */}
@@ -37,10 +37,10 @@ const FooterSection = () => {
           </p>
 
           {/* Copyright */}
-          <div className="pt-8 border-t border-blush-200/50">
+          <div className="pt-8 border-t border-mocha-200/50">
             <p className="font-body text-sm text-muted-foreground">
               Створено з{' '}
-              <Heart className="w-3 h-3 inline text-blush-400 fill-blush-400" />{' '}
+              <Heart className="w-3 h-3 inline text-mocha-500 fill-mocha-500" />{' '}
               для нашого особливого дня
             </p>
           </div>
