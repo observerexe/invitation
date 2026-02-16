@@ -28,7 +28,7 @@ const DressCodeSection = () => {
     { name: 'Мокко', class: 'bg-[#8a5238]' },
     { name: 'Капучино', class: 'bg-[#c39a72]' },
     { name: 'Чорний', class: 'bg-[#1a1a1a]' },
-    { name: 'Золотий', class: 'bg-[#d4af37]' },
+    { name: 'Шампанський', class: 'bg-[#f7e7ce]' },
   ];
 
   const menColors = [
